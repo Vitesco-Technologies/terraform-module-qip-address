@@ -1,0 +1,19 @@
+name: tfsec
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - v*
+  pull_request:
+
+jobs:
+  tfsec:
+    runs-on: [self-hosted,cloudplatforms]
+    # TODO: github.com
+    # runs-on: [ubuntu-latest]
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aquasecurity/tfsec-action@v1.0.3

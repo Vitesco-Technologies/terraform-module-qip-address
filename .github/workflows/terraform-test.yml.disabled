@@ -1,0 +1,39 @@
+name: Terraform testing
+
+# TODO: re-enable once the registry is set up
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - v*
+  pull_request:
+
+jobs:
+  terraform-test:
+    runs-on: [self-hosted,cloudplatforms]
+    # TODO: github.com
+    # runs-on: [ubuntu-latest]
+
+    strategy:
+      fail-fast: false
+      matrix:
+        version:
+          - '~> 0.14.0'
+          - '~> 0.15.0'
+          - '~> 1.1'
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: ${{ matrix.version }}
+
+      - name: Terraform Init
+        id: init
+        run: terraform init
+
+      - name: Terraform Validate
+        id: validate
+        run: terraform validate -no-color
