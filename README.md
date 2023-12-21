@@ -33,8 +33,8 @@ terraform {
 
   required_providers {
     qip = {
-      source  = "registry.terraform.io/vitesco-technologies/qip"
-      version = "~> 0.2"
+      source  = "Vitesco-Technologies/qip"
+      version = ">= 1"
     }
   }
 }
@@ -46,14 +46,14 @@ terraform {
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.14 |
 | <a name="requirement_dns"></a> [dns](#requirement\_dns) | ~> 3.2 |
-| <a name="requirement_qip"></a> [qip](#requirement\_qip) | ~> 0.2 |
+| <a name="requirement_qip"></a> [qip](#requirement\_qip) | >= 1 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
 | <a name="provider_dns"></a> [dns](#provider\_dns) | ~> 3.2 |
-| <a name="provider_qip"></a> [qip](#provider\_qip) | ~> 0.2 |
+| <a name="provider_qip"></a> [qip](#provider\_qip) | >= 1 |
 
 ## Inputs
 

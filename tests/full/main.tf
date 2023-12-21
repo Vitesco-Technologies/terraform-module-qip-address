@@ -23,8 +23,8 @@ terraform {
 
   required_providers {
     qip = {
-      source  = "registry.terraform.io/vitesco-technologies/qip"
-      version = "~> 0.2"
+      source  = "Vitesco-Technologies/qip"
+      version = ">= 1"
     }
   }
 }

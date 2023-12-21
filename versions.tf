@@ -7,8 +7,8 @@ terraform {
       version = "~> 3.2"
     }
     qip = {
-      source  = "registry.terraform.io/vitesco-technologies/qip"
-      version = "~> 0.2"
+      source  = "Vitesco-Technologies/qip"
+      version = ">= 1"
     }
   }
 }
