@@ -5,6 +5,16 @@ Based on [terraform-provider-qip](https://github.com/Vitesco-Technologies/terraf
 <!-- BEGIN_TF_DOCS -->
 ## Example
 
+<!-- x-release-please-start-version -->
+
+If you want to use the module in your terraform code, please use a versioned reference:
+
+```
+source = "git::https://github.com/Vitesco-Technologies/terraform-module-qip-address?ref=v0.0.0"
+```
+
+<!-- x-release-please-end -->
+
 ```terraform
 module "address" {
   source = "git::https://github.com/Vitesco-Technologies/terraform-module-qip-address"
