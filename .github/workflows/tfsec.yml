@@ -10,9 +10,7 @@ on:
 
 jobs:
   tfsec:
-    runs-on: [self-hosted,cloudplatforms]
-    # TODO: github.com
-    # runs-on: [ubuntu-latest]
+    runs-on: [ubuntu-latest]
 
     steps:
       - uses: actions/checkout@v4
