@@ -12,7 +12,7 @@ content: |-
   If you want to use the module in your terraform code, please use a versioned reference:
 
   ```
-  source = "git::https://github.com/Vitesco-Technologies/terraform-module-qip-address?ref=v0.0.0"
+  source = "git::https://github.com/Vitesco-Technologies/terraform-module-qip-address?ref=v1.0.0"
   ```
 
   <!-- x-release-please-end -->

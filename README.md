@@ -1,6 +1,16 @@
 # Terraform module for addresses in Nokia QIP
 
+![GitHub tag (with filter)](https://img.shields.io/github/v/release/Vitesco-Technologies/terraform-module-qip-address)
+[![Terraform Registry](https://img.shields.io/badge/Terraform_Registry-Vitesco--Technologies%2Fqip--address-blue)][terraform-registry]
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Vitesco-Technologies/terraform-module-qip-address/terraform-test.yml)
+![GitHub License](https://img.shields.io/github/license/Vitesco-Technologies/terraform-module-qip-address)
+[![Open Source](https://img.shields.io/badge/Vitesco_Technologies-open--source-yellow)](https://github.com/Vitesco-Technologies)
+
 Based on [terraform-provider-qip](https://github.com/Vitesco-Technologies/terraform-provider-qip) to manage IPv4 addresses in a subnet of Nokia QIP.
+
+Documentation and releases can also be found on the [Terraform Registry under Vitesco-Technologies/qip-address][terraform-registry].
+
+[terraform-registry]: https://registry.terraform.io/modules/Vitesco-Technologies/qip-address/module/latest
 
 <!-- BEGIN_TF_DOCS -->
 ## Example
@@ -10,7 +20,7 @@ Based on [terraform-provider-qip](https://github.com/Vitesco-Technologies/terraf
 If you want to use the module in your terraform code, please use a versioned reference:
 
 ```
-source = "git::https://github.com/Vitesco-Technologies/terraform-module-qip-address?ref=v0.0.0"
+source = "git::https://github.com/Vitesco-Technologies/terraform-module-qip-address?ref=v1.0.0"
 ```
 
 <!-- x-release-please-end -->
