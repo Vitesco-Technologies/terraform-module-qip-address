@@ -1,5 +1,11 @@
 # Terraform module for addresses in Nokia QIP
 
+> **⚠️ Important Notice:** Vitesco Technologies has ceased using Nokia QIP as the main DNS tool and we currently don't use this project anymore. No further updates or maintenance will be provided for now.
+>
+> During our merging with Schaeffler, we will be re-evaluating this tool.
+>
+> Feel free to keep using the tool if you are able to support yourself. Add your comments to [#6](https://github.com/Vitesco-Technologies/terraform-module-qip-address/issues/6).
+
 ![GitHub tag (with filter)](https://img.shields.io/github/v/release/Vitesco-Technologies/terraform-module-qip-address)
 [![Terraform Registry](https://img.shields.io/badge/Terraform_Registry-Vitesco--Technologies%2Fqip--address-blue)][terraform-registry]
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Vitesco-Technologies/terraform-module-qip-address/terraform-test.yml)
